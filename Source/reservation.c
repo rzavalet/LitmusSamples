@@ -50,7 +50,7 @@ int job(unsigned short thr_num)
 
   I[thr_num] ++;
 
-  if (I[thr_num] >= 10000) {
+  if (I[thr_num] >= 100) {
     return 1;
   }
 
